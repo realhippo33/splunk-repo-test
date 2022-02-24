@@ -1,0 +1,33 @@
+{
+    "instances": [
+        "adhoc",
+        "es",
+        "itsi"
+    ],
+    "apps": {
+        "Splunk_TA_windows": {
+            "adhoc": {
+                "version": "latest",
+                "build": "latest"
+            },
+            "itsi": {
+                "version": "7.0.2",
+                "build": "latest"
+            },
+            "es": {
+                "version": "latest",
+                "build": "latest"
+            }
+        },
+        "Splunk_TA_nix": {
+            "adhoc": "latest",
+            "itsi": "latest",
+            "es": "latest"
+        },
+        "my-custom-props": {
+            "adhoc": "remove",
+            "itsi": "latest",
+            "es": "latest"
+        }
+    }
+}
